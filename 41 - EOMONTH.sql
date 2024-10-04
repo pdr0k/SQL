@@ -1,0 +1,9 @@
+
+
+USE ContosoRetailDW
+
+--END OF MONTH
+
+SELECT
+	EOMONTH(GETDATE()),
+	EOMONTH(GETDATE(), 1)
